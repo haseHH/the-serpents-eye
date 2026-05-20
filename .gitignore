@@ -1,5 +1,16 @@
+crash-reports
+downloads
+dynamic-data-pack-cache
+dynamic-resource-pack-cache
+ftbbackups3
+local
+logs
 mods
 saves
+xaero
 .curseclient
+command_history.txt
 minecraftinstance.json
 modlist.html
+usercache.json
+usernamecache.json
