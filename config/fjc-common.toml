@@ -1,0 +1,64 @@
+#First Join Control Configuration
+[general]
+	#Delay in ticks before executing actions (20 ticks = 1 second)
+	# Default: 40
+	# Range: 0 ~ 1200
+	spawn_delay = 0
+	#Should the actions execute only on the player's first join?
+	first_join_only = true
+
+[spawn]
+	#Enable custom spawn location
+	enabled = false
+	# Default: 100.5
+	# Range: -3.0E7 ~ 3.0E7
+	x = 100.5
+	# Default: 64.0
+	# Range: -64.0 ~ 320.0
+	y = 64.0
+	# Default: -200.5
+	# Range: -3.0E7 ~ 3.0E7
+	z = -200.5
+	dimension = "minecraft:overworld"
+	# Default: 180.0
+	# Range: -360.0 ~ 360.0
+	yaw = 180.0
+	# Default: 0.0
+	# Range: -90.0 ~ 90.0
+	pitch = 0.0
+
+[items]
+	#Format: 'item_id;count'
+	starter_items = ["ftbquests:book;1"]
+	#Enable starter items
+	enabled = true
+
+[effects]
+	#Enable potion effects on join
+	enabled = false
+	#Format: 'effect_id;duration_ticks;amplifier' (Amplifier 0 = Level 1 in-game)
+	player_effects = ["minecraft:resistance;200;1", "minecraft:regeneration;100;0"]
+
+[visual]
+	#Enable visual and sound effects
+	enabled = false
+	#Format: 'particle_id;count'
+	particles = ["minecraft:portal;100", "minecraft:cloud;30"]
+	#Format: 'sound_id;volume;pitch'
+	sounds = ["minecraft:entity.enderman.teleport;1.0;1.0"]
+
+[messages]
+	#Enable chat messages and titles
+	enabled = false
+	chat_message = "§aWelcome to the server!"
+	title = "§6Welcome"
+	subtitle = "§fPrepare for your journey"
+	# Default: 10
+	# Range: 0 ~ 200
+	title_fade_in = 10
+	# Default: 60
+	# Range: 0 ~ 200
+	title_stay = 60
+	# Default: 10
+	# Range: 0 ~ 200
+	title_fade_out = 10

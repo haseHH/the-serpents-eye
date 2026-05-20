@@ -1,0 +1,142 @@
+{
+	chapter.36BB004C6B0ECD48.title: "Welcome"
+	chapter.4C2ED9DB1C0518CA.title: "Getting into the mods"
+	quest.00461431B0FF1A6E.quest_desc: [
+		"Welcome to the modpack of The Serpent's Eye, the &mtavern&r community of the variety-streamer Helia (@sunofsnek). What started as a loose collection of mods for a medieval fantasy vibe quickly grew into a proper pack that we wanted to share with everyone."
+		""
+		"We know what we'll be doing - playing with spells and build a cozy tavern - but what you do with this is entirely your choice! ☺"
+	]
+	quest.00461431B0FF1A6E.quest_subtitle: "The Sun Snake greets you"
+	quest.00461431B0FF1A6E.title: "Welcome to The Serpent's Eye"
+	quest.0CA6D7D075190EC1.quest_desc: [
+		"This pack includes an option for vein mining, but not in the usual \"press a button\" style. Instead, there's an enchantment for you to get for your tools. It will only work for ore mining though, trees need to be harvested by hand."
+		""
+		"Ask your local Librarian for a copy!"
+	]
+	quest.0CA6D7D075190EC1.quest_subtitle: "Don't mind if I do!"
+	quest.0CA6D7D075190EC1.title: "Vein Mining?"
+	quest.0E7A68C383FCDD21.quest_desc: ["Shift + Right Click on an armor stand to freely pose its elements."]
+	quest.0E7A68C383FCDD21.quest_subtitle: "Free Form Decoration"
+	quest.0E7A68C383FCDD21.title: "Armor Statues"
+	quest.10D2CBD17489EA66.quest_desc: ["While the discovery of biomes with the Nature's Compass is rather easy, finding strctures can be a bit more tricky. The magic of Ars has your back again though; the Tablet of Locate Structure is a ritual that will provide you with a Wayfinder that leads to Discovery and Adventure!"]
+	quest.10D2CBD17489EA66.quest_subtitle: "Structure Compass with added Magics"
+	quest.10D2CBD17489EA66.title: "Where's my next Adventure?"
+	quest.14D5856E72B6C48B.quest_desc: [
+		"The guide book you spawned with opens this guide, but also the book icon in the top left while you have your inventory open will bring you here."
+		""
+		"Should you loose your physical copy or want another one for any reason, &mbang rocks together&r combine a stone block with a normal book. Check JEI for your stone options."
+	]
+	quest.14D5856E72B6C48B.quest_subtitle: "Have a Freebie"
+	quest.1B7D2D745C54C92D.quest_desc: [
+		"To free your creative muscles from their cube-shaped restraints, we included Framed Blocks as well as a selection of Macaw's mods for building and furniture. This will pair well with the decorations from Supplementaries!"
+		""
+		"For the full variety, all Macaw's mods have been made compatible with the spectrum of wood types Biomes O' Plenty brings!"
+	]
+	quest.1B7D2D745C54C92D.quest_subtitle: "Framed Macaw?"
+	quest.1B7D2D745C54C92D.title: "Freeform Creativity"
+	quest.1E0881A5DFC5D0A2.quest_desc: [
+		"Sophisticated Backpacks will help you haul your loot and findings from exploring these lands home, where you can unload them directly into your Sophisticated Storage."
+		""
+		"Bonus Tip: If you're building a storage system with an Ars Storage Lectern as your interface, place the Backpack next to it and your Bookwyrms will empty it for you!"
+	]
+	quest.1E0881A5DFC5D0A2.quest_subtitle: "Backpacks and Storage"
+	quest.1E0881A5DFC5D0A2.title: "Sophisticated Hoarding"
+	quest.23782F6B5E962B64.quest_desc: [
+		"A wide vareity of new animals joins you on your journey! If you want to know all about them, hunt one of them down and combine their remains with a book and green dye. Check JEI for options."
+		""
+		"...oh you also could just buy the dictionary off a Wandering Trader :D"
+	]
+	quest.23782F6B5E962B64.quest_subtitle: "Meet new critters, big and small"
+	quest.23782F6B5E962B64.title: "Alex's Mobs"
+	quest.251A07AD866C33E8.quest_desc: [
+		"Big modpacks throw all manner of reference books and guides at you, which can be overwhelming for new players. And that's the core demographic of the community this pack comes from."
+		""
+		"This chapter shows you how to get these books and gives tips on how to get started."
+	]
+	quest.251A07AD866C33E8.quest_subtitle: "Why is my hotbar not full of guides?"
+	quest.2F796A344CAA47D3.quest_desc: [
+		"This dummy can take a good beating, and will tell you how much damage you dealt. Test your spells!"
+		""
+		"Oh and give it a pumpkin for a functional scarecrow if the crows keep stealing your crops."
+	]
+	quest.2F796A344CAA47D3.quest_subtitle: "Gimme all you got you little Varmint!"
+	quest.2F796A344CAA47D3.title: "Target Practice"
+	quest.34F1097E817B352E.quest_desc: [
+		"This world holds magic - and Ars Nouveau is your way to make use of it!"
+		""
+		"Find yourself some of the basic materials: visit the magical Archwoods, stock up on some gold, maybe have some amethyst on hand, and of course Minecraft's most magical stone of all, Lapis Lazuli!"
+		""
+		"One of these blue stones will pursuade a book into divulging all the secrets Ars holds in store for you."
+	]
+	quest.34F1097E817B352E.quest_subtitle: "Dabble in magic - or immerse yourself fully!"
+	quest.34F1097E817B352E.title: "Ars Nouveau"
+	quest.37AA5B47D1B6EAB0.quest_desc: [
+		"You can hide Item Frames by Right CLicking them while crouching, for cleaner visuals."
+		""
+		"And Signs come with a set of big \"multiline\" fonts, give it a try!"
+	]
+	quest.37AA5B47D1B6EAB0.quest_subtitle: "Your Ad Here?"
+	quest.37AA5B47D1B6EAB0.title: "Advanced Signage"
+	quest.38D0B57874E7BE34.quest_desc: ["For a mod that calls itself \"Vanilla+\" Supplementaries brings a lot to the table. I can't even begin to tell you about everything that's in here, but I hear YouTube has wonderful showcases!"]
+	quest.38D0B57874E7BE34.quest_subtitle: "Bother the Wandering Trader of your Trust!"
+	quest.38D0B57874E7BE34.title: "Supplementary Trinkets"
+	quest.3A49C602200415AB.quest_desc: [
+		"Looking to open a tavern? Want a strong drink after a long mining session? I'll drink to that!"
+		""
+		"Craft up a big barrel and brew your beverage of choice, and while that's fermenting string up some fairy lights and decorate your space with the offerings of Kaleidoscppe Tavern."
+	]
+	quest.3A49C602200415AB.quest_subtitle: "It's an open Bar!"
+	quest.3A49C602200415AB.title: "Stock the Tavern"
+	quest.3BB2596AD5760E06.quest_desc: [
+		"These beautiful lands are blessed (or sometimes cursed) with the wonders and variety of Biomes O' Plenty!"
+		""
+		"With that comes a slew of tree types and biome-specific blocks. If you want to find a specific one you can grab a sleeping bag, backpack, and your luck to pick the right direction."
+		""
+		"...or you take four logs and saplings, arrange them around a compass, and craft yourself a Nature's Compass! Right-click it, choose a biome, and follow the needle to whatever your heart desires; or your build needs."
+	]
+	quest.3BB2596AD5760E06.quest_subtitle: "and your trusty Nature's Compass"
+	quest.3BB2596AD5760E06.title: "Biomes O' Plenty"
+	quest.450E604D60C40CF0.quest_desc: [
+		"Did your draconinc tendencies fill your chests to the brim and now you can't find anything? Ask a friendly wyrm for their help!"
+		""
+		"Set up a Storage Lecturn and summon a Bookwyrm or two, and you'll be back to crafting and creating instead of searching."
+	]
+	quest.450E604D60C40CF0.quest_subtitle: "Bookwyrms will take care of your Hoard"
+	quest.450E604D60C40CF0.title: "Magical Librarians"
+	quest.45112F3EDFE7668F.quest_desc: [
+		"Phantoms do not spawn here. The most regretted Mob Vote winner of all time was banished from these lands."
+		""
+		"\"What about my crafting recipes with their membranes?\""
+		"No worries, other Wing Membranes will work just fine. Pick up a knife and cut them out of wings other mobs dropped, check JEI for details."
+	]
+	quest.45112F3EDFE7668F.quest_subtitle: "You must have had a bad dream, friend."
+	quest.45112F3EDFE7668F.title: "Phantoms?"
+	quest.4681B67CA92EE232.quest_desc: [
+		"This pack will not force you into any path, we just hand you the tools. Play by your style!"
+		""
+		"Take a look at the mod chapter, pick a direction and take off running ☺"
+	]
+	quest.4681B67CA92EE232.quest_subtitle: "This is your journey!"
+	quest.62DD556A67780094.quest_desc: ["A variety of farming and cooking options have been made available to you by Farmer's Delight and some selected add-ons. Check &myour cookbook&r JEI for all that's in store!"]
+	quest.62DD556A67780094.quest_subtitle: "Farmer's, Miner's, Alex's..."
+	quest.62DD556A67780094.title: "Various Delights"
+	quest.7DA1CA97C7155150.quest_desc: [
+		"These sleeping bags are great for skipping the night on the go, without resetting your spawn point!"
+		""
+		"And the hammoks allow you to sleep the day away, which might come in handy sometimes."
+	]
+	quest.7DA1CA97C7155150.quest_subtitle: "Here's some Comforts for you!"
+	quest.7DA1CA97C7155150.title: "Tired while on the Road?"
+	task.196198F8D9FE69BC.title: "Item Frame"
+	task.1D1BD57E63A80FBA.title: "Framed Blocks"
+	task.213640C0336041DB.title: "Sleeping Bags and Hammocks"
+	task.30DF40E0202D3E7A.title: "stage"
+	task.3566D137A9B336FA.title: "What now?"
+	task.4D28900F834BF5EC.title: "Iron Chest"
+	task.6302FDEE3097757E.title: "Welcome"
+	task.64A9095410341962.title: "Backpack"
+	task.65F0D4BEBF1AD133.title: "Sign"
+	task.691DA6CBA0CEE75C.title: "Please giv book!"
+	task.72B7904184B1FED0.title: "Macaw's Decorations"
+	task.793FBACDA229BEC4.title: "Waystones"
+}

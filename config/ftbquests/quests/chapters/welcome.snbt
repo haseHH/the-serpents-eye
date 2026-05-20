@@ -1,0 +1,63 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: {
+		id: "minecraft:grass_block"
+	}
+	id: "36BB004C6B0ECD48"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "00461431B0FF1A6E"
+			rewards: [{
+				id: "41A061592AF05FBE"
+				item: {
+					count: 1
+					id: "minecraft:sunflower"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6302FDEE3097757E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00461431B0FF1A6E"]
+			id: "45112F3EDFE7668F"
+			rewards: [{
+				id: "063D72E5BD9DA549"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "692118F3875FEA01"
+				item: { count: 1, id: "minecraft:phantom_membrane" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00461431B0FF1A6E"]
+			id: "4681B67CA92EE232"
+			rewards: [{
+				id: "2A9CE06F4F41540F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3566D137A9B336FA"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}
