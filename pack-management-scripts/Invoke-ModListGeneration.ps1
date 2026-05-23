@@ -2,9 +2,13 @@
 
 <#
     .SYNOPSIS
-    Generate Markdown file with mods and their versions based on current manifest
+    Generate Markdown file with mods and their versions based on current mod-db.json
+
+    .NOTES
+    Make sure to refresh the cached info in the DB before generating an updated new list
 
     .EXAMPLE
+    & ./pack-management-scripts/Invoke-ModDbRefresh.ps1
     & ./pack-management-scripts/Invoke-ModListGeneration.ps1
 #>
 
@@ -20,24 +24,6 @@ $manifest = Get-Content -Path "${baseScriptPath}/../manifest.json" -Raw | Conver
 $modloader = $manifest.minecraft.modLoaders[0].id.Split('-')[0]
 $modloaderVersion = $manifest.minecraft.modLoaders[0].id.Split('-')[1]
 
-$mods = @()
-for ($i = 0; $i -lt $manifest.files.Count; $i++) {
-    $mod = $manifest.files[$i]
-    Write-Verbose "Get details for mod $($i + 1) out of $($manifest.files.Count)" -Verbose
-
-    $modDetails = & "${baseScriptPath}/Get-Mod.ps1" -ModId $mod.projectID
-    $modVersion = & "${baseScriptPath}/Get-ModVersion.ps1" -ModId $mod.projectID -VersionId $mod.fileID
-
-    $mods += @(@{
-        name     = $modDetails.name.Replace('[', '\[').Replace(']', '\]').Replace('|', '\|')
-        overview = $modDetails.links.websiteUrl
-        version  = $modVersion.displayName.Replace('[', '\[').Replace(']', '\]').Replace('|', '\|')
-        download = "$($modDetails.links.websiteUrl)/files/$($mod.fileID)"
-    })
-}
-# Sort list alphabetically
-$mods = $mods | Sort-Object -Property 'name'
-
 $markdownDocument = @"
 # $($manifest.name) ($($manifest.version))
 
@@ -52,8 +38,13 @@ A ``${modloader}`` modpack for Minecraft $($manifest.minecraft.version) by $($ma
 
 "@
 
-foreach ($mod in $mods) {
-    $markdownDocument += "| [$($mod.name)]($($mod.overview)) | [$($mod.version)]($($mod.download)) |`n"
+$db = Get-Content -Path "${baseScriptPath}/mod-db.json" -Raw | ConvertFrom-Json
+foreach ($mod in $db) {
+    $name     = $mod.name.Replace('[', '\[').Replace(']', '\]').Replace('|', '\|')
+    $overview = $mod.details.links.websiteUrl
+    $version  = $mod.versionFile.displayName.Replace('[', '\[').Replace(']', '\]').Replace('|', '\|')
+    $download = "$($mod.details.links.websiteUrl)/files/$($mod.versionFile.id)"
+    $markdownDocument += "| [${name}](${overview}) | [${version}](${download}) |`n"
 }
 
 Out-File -InputObject $markdownDocument -FilePath $markdownFilePath -Encoding utf8NoBOM -Force
