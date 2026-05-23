@@ -29,9 +29,9 @@ for ($i = 0; $i -lt $manifest.files.Count; $i++) {
     $modVersion = & "${baseScriptPath}/Get-ModVersion.ps1" -ModId $mod.projectID -VersionId $mod.fileID
 
     $mods += @(@{
-        name     = $modDetails.name.Replace('[', '\[').Replace(']', '\]')
+        name     = $modDetails.name.Replace('[', '\[').Replace(']', '\]').Replace('|', '\|')
         overview = $modDetails.links.websiteUrl
-        version  = $modVersion.displayName.Replace('[', '\[').Replace(']', '\]')
+        version  = $modVersion.displayName.Replace('[', '\[').Replace(']', '\]').Replace('|', '\|')
         download = "$($modDetails.links.websiteUrl)/files/$($mod.fileID)"
     })
 }
