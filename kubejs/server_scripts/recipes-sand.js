@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
   // The default recipe for recoloring block/items as a function
-  const dyeEight = (input, color, output, recipeId) => {
+  const dyeEight = (input, color, output) => {
     event.shaped(
       Item.of(output, 8),
       [
