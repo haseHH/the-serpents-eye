@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
       ChanceResult.of("2x minecraft:phantom_membrane", 0.5)
     ],
     // '' // sound
-  )
+  ).id('kubejs:phantom_membrane_from_wilden_wing')
 
   // Enchanted Golden Apple
   event.recipes.ars_nouveau.enchanting_apparatus(
@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
     "minecraft:enchanted_golden_apple", // output
     5000, // source cost
     // true // keep nbt of reagent, think like a smithing recipe
-  );
+  ).id('kubejs:enchanted_golden_apple')
 
   // interchangable ropes
   event.shapeless(
@@ -43,13 +43,13 @@ ServerEvents.recipes(event => {
     [
       'farmersdelight:rope' // arg 2: the array of inputs
     ]
-  )
+  ).id('kubejs:interchangable_rope_farmersdelight_to_supplementaries')
   event.shapeless(
     Item.of('farmersdelight:rope', 1), // arg 1: output
     [
       'supplementaries:rope' // arg 2: the array of inputs
     ]
-  )
+  ).id('kubejs:interchangable_rope_supplementaries_to_farmersdelight')
 
   // new Name Tag crafting while Vanilla Backport doesn't have it yet
   event.shapeless(
@@ -58,7 +58,7 @@ ServerEvents.recipes(event => {
       'minecraft:paper', // arg 2: the array of inputs
       'minecraft:iron_nugget'
     ]
-  )
+  ).id('kubejs:name_tag')
 
   // Nether Star from Shards
   event.shaped(
@@ -71,7 +71,7 @@ ServerEvents.recipes(event => {
     {
       A: 'kubejs:nether_star_shard'  //arg 3: the mapping object
     }
-  )
+  ).id('kubejs:nether_star_from_shards')
 
   // remove redundant cake recipes
   // keep farmersdelight:cake_from_milk_bottle

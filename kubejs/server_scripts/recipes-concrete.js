@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
         I: input,
         D: `minecraft:${color}_dye`
       }
-    )
+    ).id(`kubejs:dye_${input.replace(':', '_')}_${color}`)
   }
 
   // Supplementaries' soap allows to wash the color off of concrete powder, giving white powder
