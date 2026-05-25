@@ -19,24 +19,6 @@ ServerEvents.recipes(event => {
     // '' // sound
   ).id('kubejs:phantom_membrane_from_wilden_wing')
 
-  // Enchanted Golden Apple
-  event.recipes.ars_nouveau.enchanting_apparatus(
-    [
-      "minecraft:gold_block",
-      "minecraft:gold_block",
-      "minecraft:gold_block",
-      "minecraft:gold_block",
-      "ars_nouveau:source_gem_block",
-      "ars_nouveau:source_gem_block",
-      "ars_nouveau:source_gem_block",
-      "ars_nouveau:source_gem_block",
-    ], // input items
-    "minecraft:golden_apple", // reagent
-    "minecraft:enchanted_golden_apple", // output
-    5000, // source cost
-    // true // keep nbt of reagent, think like a smithing recipe
-  ).id('kubejs:enchanted_golden_apple')
-
   // interchangable ropes
   event.shapeless(
     Item.of('supplementaries:rope', 1), // arg 1: output
