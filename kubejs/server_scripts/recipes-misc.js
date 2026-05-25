@@ -56,7 +56,7 @@ ServerEvents.recipes(event => {
     Item.of('minecraft:name_tag', 1), // arg 1: output
     [
       'minecraft:paper', // arg 2: the array of inputs
-      'minecraft:iron_nugget'
+      '#c:nuggets'
     ]
   ).id('kubejs:name_tag')
 
