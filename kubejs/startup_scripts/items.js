@@ -5,7 +5,4 @@ StartupEvents.registry('item', event => {
   event.create('nether_star_shard')
     .rarity('uncommon')
     .displayName('Nether Star Shard')
-    .tooltip('If you can manage to introduce a Drygmy')
-    .tooltip('to a Wither in a safe manner, they might')
-    .tooltip('reward you with these shards')
 })
