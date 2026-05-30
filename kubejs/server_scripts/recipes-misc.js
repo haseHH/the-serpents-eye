@@ -62,4 +62,8 @@ ServerEvents.recipes(event => {
 
   // remove old Lodestone recipe
   event.remove({ id: 'minecraft:lodestone' })
+
+  // remove Natrue's Compass repair recipe
+  // we don't have its durability feature on so it's not helpful
+  event.remove({ id: 'naturescompass:repair_natures_compass' })
 })
