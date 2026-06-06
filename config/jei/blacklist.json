@@ -1,4 +1,6 @@
 [
   {"version":2},
+  {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"sophisticatedstorage:debug_tool"},"type":"item_stack"}},
+  {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"ars_nouveau:debug"},"type":"item_stack"}},
   {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"ftbfiltersystem:smart_filter"},"type":"item_stack"}}
 ]
