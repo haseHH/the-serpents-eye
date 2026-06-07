@@ -67,3 +67,10 @@ ServerEvents.recipes(event => {
   // we don't have its durability feature on so it's not helpful
   event.remove({ id: 'naturescompass:repair_natures_compass' })
 })
+
+ServerEvents.tags('item', event => {
+  // Some mods use out-of-date tags for milk items, making some recipes
+  // impossible. This includes the wrong "foods/milk" tag in the correct
+  // one, fixing the Brewin' and Chewin' quiche and fiery fondue recipes:
+  event.add('c:foods/milk', '#c:drinks/milk')
+})
