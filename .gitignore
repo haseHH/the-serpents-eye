@@ -1,4 +1,6 @@
 .mixin.out
+.probe
+.vscode/probejs.code-snippets
 config
 !config/ftbquests
 !config/jei/blacklist.json
@@ -22,7 +24,11 @@ downloads
 dynamic-data-pack-cache
 dynamic-resource-pack-cache
 ftbbackups3
+kubejs/client_scripts/jsconfig.json
 kubejs/config
+kubejs/server_scripts/jsconfig.json
+kubejs/startup_scripts/jsconfig.json
+kubejs/package.json
 kubejs/README.txt
 local
 logs
