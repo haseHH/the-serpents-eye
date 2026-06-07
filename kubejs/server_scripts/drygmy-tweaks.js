@@ -15,10 +15,9 @@ function onlyDrygmy(event, entity) {
 LootJS.modifiers((event) => {
   onlyDrygmy(event, 'minecraft:bee').addLoot(LootEntry.of('minecraft:honeycomb').randomChance(0.5));
 });
-ItemEvents.modifyTooltips(event => {
+RecipeViewerEvents.addInformation('item', event => {
   event.add('minecraft:honeycomb', [
-    Text.gray('Drygmys are known to obtain'),
-    Text.gray('these from bees directly')
+    'Drygmys are known to obtain these from bees directly'
   ])
 })
 
@@ -26,11 +25,9 @@ ItemEvents.modifyTooltips(event => {
 LootJS.modifiers((event) => {
   onlyDrygmy(event, 'minecraft:wither').addLoot(LootEntry.of('kubejs:nether_star_shard').randomChance(0.15));
 });
-ItemEvents.modifyTooltips(event => {
+RecipeViewerEvents.addInformation('item', event => {
   event.add('kubejs:nether_star_shard', [
-    Text.gray('If you can manage to introduce a Drygmy'),
-    Text.gray('to a Wither in a safe manner, they might'),
-    Text.gray('reward you with these shards')
+    'If you can manage to introduce a Drygmy to a Wither in a safe manner, they might reward you with these shards'
   ])
 })
 
@@ -38,9 +35,10 @@ ItemEvents.modifyTooltips(event => {
 LootJS.modifiers((event) => {
   onlyDrygmy(event, 'alexsmobs:crimson_mosquito').addLoot(LootEntry.of('alexsmobs:blood_sac').randomChance(0.05));
 });
-ItemEvents.modifyTooltips(event => {
-  event.add('alexsmobs:blood_sac', [
-    Text.gray('Drygmys are also able to'),
-    Text.gray('extract these sacs')
-  ])
+RecipeViewerEvents.addInformation('item', event => {
+	event.add('alexsmobs:blood_sac', [
+		'Crimson Mosquitos may drop these when slain while they\'re full of blood.',
+    ' ',
+    'Drygmys are also able to extract these sacs.'
+	])
 })
