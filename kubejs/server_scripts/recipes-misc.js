@@ -69,8 +69,16 @@ ServerEvents.recipes(event => {
 })
 
 ServerEvents.tags('item', event => {
-  // Some mods use out-of-date tags for milk items, making some recipes
-  // impossible. This includes the wrong "foods/milk" tag in the correct
-  // one, fixing the Brewin' and Chewin' quiche and fiery fondue recipes:
+  // Some mods use out-of-date tags for milk items, making some recipes impossible.
+  // This includes all items from the "c:drinks/milk" tag in the "c:foods/milk"
+  // tag, fixing the Brewin' and Chewin' quiche and fiery fondue recipes:
   event.add('c:foods/milk', '#c:drinks/milk')
+
+  // Merge Music Disc tags to fix Alex's Mobs' Capsid Transformation for the
+  // "Daze - Mimic Octopus" disc. First, add all items tagged as "#c:music_discs"
+  // to "minecraft:music_discs" to be picked up by the transformation recipe:
+  event.add('minecraft:music_discs', '#c:music_discs')
+  // And add the Alex's Mobs discs to the "c:music_discs" tag for completeness' sake:
+  event.add('c:music_discs', 'alexsmobs:music_disc_daze')
+  event.add('c:music_discs', 'alexsmobs:music_disc_thime')
 })
