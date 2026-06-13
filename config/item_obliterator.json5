@@ -21,6 +21,7 @@
     "ftbquests:loot_crate_opener",
     "!ftbquests:screen_.*",
     "ftbquests:task_screen_configurator",
+    "kaleidoscope_tavern:rum", // gives Bad Omen effect, accidental raid prevention
     "sophisticatedbackpacks:infinity_upgrade",
     "sophisticatedbackpacks:survival_infinity_upgrade",
     "sophisticatedstorage:infinity_upgrade",
