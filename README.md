@@ -21,6 +21,17 @@ You find yourself in a magical land, unburdened by quests, and only bound to you
 *   [Supplementaries](https://www.curseforge.com/minecraft/mc-mods/supplementaries)
 *   [Complementary Shaders - Unbound](https://www.curseforge.com/minecraft/shaders/complementary-unbound)
 
+## Datapacks
+
+*   Anti Enderman Grief datapack from [Vanilla Tweaks](https://vanillatweaks.net/)
+*   a selection of [notblue](https://modrinth.com/user/notblue)'s recycling datapacks:
+    *   [Better Iron Recycling](https://modrinth.com/datapack/better-iron-recycling)
+    *   [Better Copper Recycling](https://modrinth.com/datapack/copper-recycling)
+    *   [Better Gold Recycling](https://modrinth.com/datapack/better-gold-recycling)
+    *   [Diamond Recycling](https://modrinth.com/datapack/diamond-recycling)
+    *   [Netherite Recycling](https://modrinth.com/datapack/netherite-recycling) (adjusted Lodestone recycling to be in line with the Vanilla Backport switch to iron)
+    *   [Anvil Repair](https://modrinth.com/datapack/anvil-repair) (reimplemented recipes in KubeJS because of version incompatibility)
+
 ### Community
 
 Meet [Helia (@sunofsnek)](https://sunofsnek.com/) and their community of Helians on Twitch, social media, and Discord!
