@@ -62,6 +62,12 @@ ServerEvents.recipes(event => {
 
   // remove old Lodestone recipe
   event.remove({ id: 'minecraft:lodestone' })
+  // replace Lodestone netherite recycling recipe
+  event.remove({ id: 'netherite_recycling:recycle_lodestone_with_stonecutter' })
+  event.stonecutting(
+    Item.of('minecraft:iron_nugget', 5),
+    'minecraft:lodestone'
+  ).id('minecraft:iron_nuggets_from_lodestone')
 
   // remove Nature's Compass repair recipe
   // we don't have its durability feature on so it's not helpful
